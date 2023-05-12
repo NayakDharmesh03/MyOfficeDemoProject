@@ -72,8 +72,9 @@ extension HeartSelectViewController : UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(#function)
         
-//        let cell = tableview.cellForRow(at: indexPath)?.accessoryType = .checkmark
-                //it is for check mark
+        
+//        this coment are deleted
+        
         
         let cell = tableview.cellForRow(at: indexPath) as! HeartTableViewCell
         
