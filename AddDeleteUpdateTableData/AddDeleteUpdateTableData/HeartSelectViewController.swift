@@ -33,7 +33,7 @@ class HeartSelectViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableview.dataSource
+        tableview.dataSource = self
         tableview.separatorStyle = .none
         
         self.tableview.allowsMultipleSelectionDuringEditing = true
