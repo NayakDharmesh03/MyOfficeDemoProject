@@ -88,7 +88,8 @@ extension HeartSelectViewController : UITableViewDelegate{
         let cell = tableview.cellForRow(at: indexPath) as! HeartTableViewCell
         cell.heartImage.image = UIImage(named: "unselectedheart")
         
-        if let index = favouriteCricketer.index(of: playersName[indexPath.row]) {
+        //this line changes BY DHARMESH
+        if let index = favouriteCricketer.firstIndex(of: playersName[indexPath.row]) {
             print(favouriteCricketer.remove(at: index))
         }
 
