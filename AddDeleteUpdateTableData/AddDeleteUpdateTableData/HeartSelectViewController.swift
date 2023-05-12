@@ -49,10 +49,12 @@ class HeartSelectViewController: UIViewController {
                 
                 favouriteCricketer.append(playersName[item.row])
             }
-//            print("List of selected players")
-//            for i in favouriteCricketer{
-//                    print(i)
-//            }
+            //This code is enterd by Dharmesh
+            print("List of selected players")
+            for i in favouriteCricketer{
+                    print(i)
+            }
+            //--------------------
         }
     }
     @IBAction func addSelectedData(_ sender: UIButton) {
